@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #2f1893;
+  color: white;
+}
+
+/* --------------------------------bacground-main-div(Parent)------------------------------------- */
+.main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.close {
+  display: none;
+}
+
+/* -----------------------------------Navigation-part------------------------------------------------ */
+.nav {
+  height: 60px;
+  width: 100%;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 10vw;
+}
+
+.nav h4 {
+  cursor: pointer;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 3vw;
+  align-items: center;
+}
+
+.over {
+  color: #8d99ae;
+  font-size: 10px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* 
+.nav-links ul button i {
+  display: none;
+} */
+
+.btn-1 {
+  font-size: 12px;
+  padding: 5px;
+  width: auto;
+  color: white;
+  background-color: #dd2f7a;
+  border-radius: 20px;
+  border: solid #dd2f7a;
+}
+
+/* ----------------------------------------------- section- content-part(Children)-------------------------- */
+
+.content {
+  height: calc(100vh - 60px);
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+  margin: 30px;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  /* background-color: cadetblue; */
+  padding: 3vw 10vw;
+}
+
+.left h1 {
+  font-size: 4vw;
+}
+
+.left p {
+  font-size: 1.2vw;
+  margin: 2vw 0;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 5px;
+  width: 25%;
+  color: white;
+  background-color: #dd2f7a;
+  border-radius: 20px;
+  border: solid #dd2f7a;
+}
+
+.right {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.form {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 30vw;
+  padding: 20px 20px 40px 20px;
+  text-align: center;
+  color: black;
+}
+
+.input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #e0e1dd;
+  outline: none;
+  font-size: 12px;
+}
+.input-box::placeholder {
+  color: #adafa6;
+  font-weight: 500;
+}
+
+.sign-btn {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #8338ec;
+  border: 1px solid #999;
+  color: #ffffff;
+}
+
+.or-container {
+  position: relative;
+  height: 20px;
+}
+.or-line {
+  background: #e5e5e5;
+  position: absolute;
+  top: 13px;
+  height: 2px;
+  width: 100%;
+}
+
+.or-item {
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  padding: 3px 5px;
+}
+
+.login-btn {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #00bbf9;
+  border: 1px solid #999;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.form h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form p {
+  font-size: 12px;
+  color: #778da9;
+}
+.form p a {
+  text-decoration: none;
+  color: #00f5d4;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.check-input:checked {
+  accent-color: #00f5d4;
+}
+
+.mobile-button {
+  visibility: hidden;
+}
+
+.fa-bars {
+  padding: 3px 5px;
+  background-color: white;
+}
